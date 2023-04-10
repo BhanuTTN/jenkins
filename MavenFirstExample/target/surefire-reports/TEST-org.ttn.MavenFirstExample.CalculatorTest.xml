@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.ttn.MavenFirstExample.CalculatorTest" time="0" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\java training\MavenFirstExample\target\test-classes;D:\java training\MavenFirstExample\target\classes;C:\Users\Bhanu Gusain\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Bhanu Gusain\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Bhanu Gusain\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.2.v20230129-1123\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\BHANUG~1\AppData\Local\Temp\surefire4019336596659172519\surefirebooter11321413671043451606.jar C:\Users\Bhanu Gusain\AppData\Local\Temp\surefire4019336596659172519 2023-04-10T17-43-12_522-jvmRun1 surefire3276958579379581405tmp surefire_02709588646848320448tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\java training\MavenFirstExample\target\test-classes;D:\java training\MavenFirstExample\target\classes;C:\Users\Bhanu Gusain\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Bhanu Gusain\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Bhanu Gusain"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="C:\Users\Bhanu Gusain\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.2.v20230129-1123\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\java training\MavenFirstExample"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\BHANUG~1\AppData\Local\Temp\surefire4019336596659172519\surefirebooter11321413671043451606.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.2+7"/>
+    <property name="user.name" value="Bhanu Gusain"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-19.0.2+7"/>
+    <property name="localRepository" value="C:\Users\Bhanu Gusain\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\BHANUG~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.2"/>
+    <property name="user.dir" value="D:\java training\MavenFirstExample"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Bhanu Gusain\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.2.v20230129-1123\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Bhanu Gusain/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.2.v20230129-1123/jre/bin/server;C:/Users/Bhanu Gusain/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.2.v20230129-1123/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Maven\apache-maven-3.9.1\bin;C:\Users\Bhanu Gusain\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Bhanu Gusain\AppData\Local\Programs\Python\Python311\;C:\Users\Bhanu Gusain\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;C:\Users\Bhanu Gusain\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.3\bin;;C:\Users\Bhanu Gusain\AppData\Roaming\npm;;C:\Users\Bhanu Gusain\eclipse\java-2022-12\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="19.0.2+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="calTest" classname="org.ttn.MavenFirstExample.CalculatorTest" time="0"/>
+</testsuite>
